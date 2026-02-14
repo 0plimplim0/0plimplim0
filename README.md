@@ -11,8 +11,7 @@ Python · SQLite · Bash · Linux · Git · APIs REST
 
 ## Proyectos
 - **ConfigBot** — Bot modular con configuración persistente por servidor.
-- **Bot CLI Manager** — Gestión de múltiples bots desde una sola interfaz.
-- **Automation Scripts** — Optimización de procesos repetitivos.
 
 ## Actualmente
+
 Diseñando sistemas más escalables y herramientas de consola mejor estructuradas.
