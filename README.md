@@ -1,9 +1,10 @@
 # Hi, I'm César 👋
 
-### Systems & Backend Engineer | C++ & Go specialist
+### Systems & Backend Developer | C++ & Go
 **Focusing on Low-Latency, High-Throughput, and Zero-Copy Architectures.**
 
-I am a self-taught developer driven by performance. I don't just build software that works; I build software that pushes the hardware to its limits. My expertise lies in systems programming, custom parsers, and concurrent data pipelines.
+I am a self-taught developer driven by performance.
+I focus on systems programming, building tools that minimize memory allocations and CPU overhead through low-level design.
 
 ---
 
@@ -11,34 +12,42 @@ I am a self-taught developer driven by performance. I don't just build software 
 
 #### ⚡ [Argus](https://github.com/0plimplim0/argus) (C++)
 *High-performance, zero-dependency text analysis engine.*
-* **Performance:** Processes **1GB in 1.43s** (v0.1).
+* **Benchmarks:**
+  - 1GB text file processed in ~1.4s (single-threaded)
+  - Single-pass parsing pipeline
+  - Zero-copy token views via std::string_view
 * **Key Tech:** Vanilla C++, `std::string_view` for zero-copy parsing, custom optimized CLI parser.
-* **Core Concept:** Built from scratch to minimize memory allocations and CPU overhead.
+* **Core Concepts:**
+  - Memory-mapped file reading
+  - Zero-copy parsing via std::string_view
+  - Single-pass tokenization
+  - Allocation-free processing pipeline
 
 #### 🏗️ [Vertex](https://github.com/0plimplim0/vertex-pipeline) (Go + Python)
 *High-throughput real-time cryptocurrency data pipeline.*
 * **Architecture:** Distributed system using **Go** for high-concurrency ingestion and **Python** for logic.
 * **Stack:** Redis (low-latency caching), PostgreSQL (persistence), Docker.
-* **Core Concept:** Handling massive data streams with horizontal scalability and data integrity.
+* **Core Concepts:**
+  - High-concurrency ingestion via goroutines
+  - Redis-based buffering layer
+  - PostgreSQL persistence pipeline
+  - Containerized deployment via Docker
 
 ---
 
 ### 🛠️ Technical Stack
-* **Languages:** C++ (Modern/Vanilla), Go (Goroutines/Channels), Python, Bash.
+* **Languages:** C++, Go, Python, Bash.
 * **Data:** Redis, PostgreSQL, SQLite.
-* **Tools:** Git, Docker, Linux Systems, SIMD/Memory Optimization Research.
-
-### 📈 Philosophy
-* **Performance first:** If it can be faster, it's not finished.
-* **Zero Dependencies:** Understanding the underlying system instead of relying on bloated libraries.
-* **Continuous Learning:** Rapidly mastering complex stacks (C++ & Go) through deep-dive implementation.
+* **Tools:** Git, Docker, Linux Systems.
 
 ---
+
+### Currently Exploring
+  -  **High-performance text search engines**
+  -  **Zero-copy parsing techniques**
+  -  **Concurrent data pipelines in Go**
 
 ### 💬 Contact & Collaboration
 * **Status:** Open to **Contractor / Freelance** roles in high-impact engineering teams.
 * **Location:** Mexico 🇲🇽 (Available for Remote).
 * **LinkedIn:** [César Cortés](https://linkedin.com/in/cesar-cortes-dev)
-
----
-*"The best way to predict the future is to implement it with O(1) complexity."*
