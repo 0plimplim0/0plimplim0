@@ -8,9 +8,9 @@ I focus on systems programming, building tools that minimize memory allocations 
 
 ---
 
-### 🚀 Featured Projects
+###  Featured Projects
 
-#### ⚡ [Argus](https://github.com/0plimplim0/argus) (C++)
+####  [Argus](https://github.com/0plimplim0/argus) (C++)
 *High-performance, zero-dependency text analysis engine.*
 * **Benchmarks:**
   - 1GB text file processed in ~1.4s (single-threaded)
@@ -23,7 +23,7 @@ I focus on systems programming, building tools that minimize memory allocations 
   - Single-pass tokenization
   - Allocation-free processing pipeline
 
-#### 🏗️ [Vertex](https://github.com/0plimplim0/vertex-pipeline) (Go + Python)
+####  [Vertex](https://github.com/0plimplim0/vertex-pipeline) (Go + Python)
 *High-throughput real-time cryptocurrency data pipeline.*
 * **Architecture:** Distributed system using **Go** for high-concurrency ingestion and **Python** for logic.
 * **Stack:** Redis (low-latency caching), PostgreSQL (persistence), Docker.
@@ -35,7 +35,7 @@ I focus on systems programming, building tools that minimize memory allocations 
 
 ---
 
-### 🛠️ Technical Stack
+###  Technical Stack
 * **Languages:** C++, Go, Python, Bash.
 * **Data:** Redis, PostgreSQL, SQLite.
 * **Tools:** Git, Docker, Linux Systems.
@@ -47,7 +47,8 @@ I focus on systems programming, building tools that minimize memory allocations 
   -  **Zero-copy parsing techniques**
   -  **Concurrent data pipelines in Go**
 
-### 💬 Contact & Collaboration
+###  Contact & Collaboration
 * **Status:** Open to **Contractor / Freelance** roles in high-impact engineering teams.
 * **Location:** Mexico 🇲🇽 (Available for Remote).
 * **LinkedIn:** [César Cortés](https://linkedin.com/in/cesar-cortes-dev)
+
